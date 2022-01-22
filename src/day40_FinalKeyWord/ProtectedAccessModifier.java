@@ -2,12 +2,10 @@ package day40_FinalKeyWord;
 
 public class ProtectedAccessModifier {
 
-    public static void main(String[] args) {
+    static String name1 = "Cydeo"; //default access modifier
+    protected static String name2 = "WoodenSpoon"; // protected
 
 
-        static String name1 = "Cydeo";
-        protected String name2 = "WoodenSpoon";
-    }
     static void method1(){
 
     }
@@ -15,4 +13,5 @@ public class ProtectedAccessModifier {
     protected static void method2(){
 
     }
+
 }
